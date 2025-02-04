@@ -1,0 +1,265 @@
+body{
+background-color: rgb(11, 82, 49);
+background-size: cover;
+background-attachment: fixed;
+
+}
+.tb1{
+border: 2px rgb(255, 255, 255) solid;
+width: 1550;
+height: 50;
+margin-top: 0px;
+}
+th{
+width: 70%;
+background: rgb(11, 82, 49);
+}
+.n{
+    text-align: center;
+    color: rgb(23, 194, 17);
+    font-size: 50px;
+}
+.ttd{
+    background-color: rgb(159, 229, 178);
+}
+.home{
+    color: rgb(255, 255, 255);
+    font-size: 30;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.home:hover{
+    font-size: 34;
+    color: rgb(87, 241, 4);
+}
+.b{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    padding-left: 10px;
+}
+.b:hover{
+    color: darkgrey;
+    font-size: 20;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form{
+    width: 700px;
+    height: 400px;
+    background-color: rgba(148, 174, 207, 0.200);
+    border: 2px;font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 120px 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    animation-name: login;
+    animation-duration: 5s;
+    animation-delay: 2S;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes login{
+    0%{
+        translate: 0 0;
+        background-color: rgb(12, 14, 103);
+    }
+}
+#tss{
+    height:34px;
+    width: 300;
+    margin: 15px;
+}
+.pss{
+    font-size: 25;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rem{
+    text-decoration: none;
+    color: aqua;
+}
+.om{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pAR2{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.par2 p{
+    flex-grow: 1;
+    font-size:24;
+}
+.par2 img{
+    width: 500px;
+    height: 500px;
+}
+.form button{
+    margin-top: 20px;
+    width: 70;
+    height: 40;
+}
+.form button:hover{
+    font-size: larger;
+}
+.div2{
+    display: flex;
+    justify-content:space-around;
+}
+.div2 a{
+    text-decoration: none;
+    font-size: 30;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:2px solid;
+    color: black;
+    
+}
+.div2 a:hover{
+    font-size: 36px;
+}
+.inst{
+    animation-name: inst;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+@keyframes inst{
+    0%{
+        background-color: rgba(212, 98, 45, 0.622);
+    }
+}
+.fcb{
+    animation-name: fcb;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+@keyframes fcb{
+    0%{
+        background-color: blue;
+    }
+}
+.threds{
+    animation-name: threds;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes threds{
+    0%{
+        background-color: azure;
+    }
+}
+.end{
+    margin: 0%;
+    font-size: 50px;
+    padding: 30px 680px;
+    box-shadow: 2PX 0Px 2px 0px  ;
+}
+.d3{
+    margin-top: 100px;
+    flex-direction: column ;
+    display: flex;
+}
+.d3 img{
+    height: 500px;
+    width: 500px;
+    padding:0px 470px;
+}
+.d3 p{
+    padding: 40px  ;
+    border: 2px solid;
+}
+.d4{
+    flex-direction: row;
+    display: flex;
+
+justify-content: center;}
+.d4 img{
+    height: 300px;
+    width: 300px;
+    margin-right:20px;
+    padding-top: 60px;
+}
+.d5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.d5 img{
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    align-items: center;
+}
+.textoverlay {
+    display: none;  /* Initially hidden */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container:hover .textoverlay {
+    display: block;
+  }
+  .i{
+    color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .p1{
+    color: aliceblue;
+  }
+.p2{
+    color: aliceblue;
+    font-size: 25px;
+}
+.k{
+    text-align: center;
+    color: chartreuse;
+    font-size: 80px;
+}
+.di{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   }
+.di p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color:rgb(159, 229, 178 );
+    margin-bottom: 0px;
+}
+.child{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.x{
+text-align: center;
+font-size: 50px;
+}

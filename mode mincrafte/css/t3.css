@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(11, 82, 49);
+}
+.tb1{
+    border: 2px rgb(255, 255, 255) solid;
+    width: 1550;
+    height: 50;
+    }
+    th{
+    width: 70%;
+    background: rgb(11, 82, 49);
+    }
+    .ttd{
+        background-color: rgba(159, 225,178);
+    }
+    .home{
+        color: aliceblue;
+        font-size: 30;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+    .home:hover{
+        font-size: 34;
+        color: gray;
+    }
+    .b{
+        text-decoration: none;
+        color: aliceblue;
+        padding-left: 10px;
+    }
+    h1{
+        font-size: 60px;
+        color: aliceblue;
+        text-align: center;
+    }
+    .b:hover{
+        color: darkgrey;
+        font-size: 20;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }   
+     div{
+       display: flex; 
+       flex-direction: column;
+       align-items: center;
+       align-content:space-around ;
+       border: 3px solid;
+       width: 400px;
+       height: 500px;
+       margin: 50px 550px;
+    }
+div a{
+    margin-top: 40px;
+    text-decoration: none;
+}
+.fcb{
+    color: dodgerblue;
+    font-size: 40px;
+}
+.insta{
+    color: rgb(204, 128, 158);
+    font-size: 40px;
+}
+.ths{
+    color:aliceblue;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    color: aliceblue;
+}

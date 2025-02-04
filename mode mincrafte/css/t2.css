@@ -1,0 +1,33 @@
+.tb1{
+    border: 2px navy solid;
+    width: 1550;
+    height: 50;
+    }
+    th{
+    width: 70%;
+    background: rgb(12, 14, 103, 1);
+    }
+    .ttd{
+        background-color: rgba(153, 153, 254, 0.816);
+    }
+    .home{
+        color: aliceblue;
+        font-size: 30;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+    .home:hover{
+        font-size: 34;
+        color: gray;
+    }
+    .b{
+        text-decoration: none;
+        color: aliceblue;
+        padding-left: 10px;
+    }
+    .b:hover{
+        color: darkgrey;
+        font-size: 20;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }    
